@@ -21,3 +21,19 @@ venv
 **/.env
 docker/weaviate_data
 .venv/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DeepFace artifacts
+*.pkl
+representations_*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
