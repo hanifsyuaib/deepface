@@ -1,0 +1,40 @@
+Face Recognition Results
+Timestamp: 2026-02-04 10:21:09.897256
+============================================================
+
+[FOUND] dev_patel_adult.jpg
+  Match      : matrix-run/database\000135.jpg
+  Distance   : 0.488612
+  Threshold  : 0.68
+  Confidence : 62.11
+
+[FOUND] dev_patel_young.jpg
+  Match      : matrix-run/database\000135.jpg
+  Distance   : 0.381824
+  Threshold  : 0.68
+  Confidence : 75.13
+
+[FOUND] josh_hutcherson.jpg
+  Match      : matrix-run/database\000091.jpg
+  Distance   : 0.459147
+  Threshold  : 0.68
+  Confidence : 65.66
+
+[FOUND] josh_hutcherson2.jpg
+  Match      : matrix-run/database\000091.jpg
+  Distance   : 0.436094
+  Threshold  : 0.68
+  Confidence : 68.47
+
+[NOT FOUND] messi.jpg
+
+[NOT FOUND] ronaldo_adult.jpg
+
+[NOT FOUND] ronaldo_kid.jpg
+
+[NOT FOUND] ronaldo_old.jpg
+
+[NOT FOUND] ronaldo_prime.jpg
+
+[NOT FOUND] ronaldo_teen.jpg
+

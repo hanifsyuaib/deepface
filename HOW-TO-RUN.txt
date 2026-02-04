@@ -1,0 +1,45 @@
+- How To Run DeepFace Face Recognition with Simple Database:
+
+1. Open Command Prompt and make sure you are in the correct directory ("deepface")
+
+2. Activate Virtual Environment of the Project in Command Prompt:
+.venv\Scripts\activate
+
+3. Make "database" folder, then fill it with the images you want to register to the simple database
+
+4. Make "input_img" folder, then fill it with the images you want to check each image is registered to database or not
+
+6. Run the face recognition python script with simple database:
+python face_recognition_with_db.py ^
+  --db_path matrix-run/database ^
+  --input_img matrix-run/input_img ^
+  --result_path matrix-run/results/face_recognition_results.txt ^
+  --gpu_num 0
+
+7. See the results in face_recognition_results.txt
+
+==================================================================================
+- How To Run DeepFace Face Recognition with PostgreSQL (postgres):
+
+1. Open Command Prompt and make sure you are in the correct directory ("deepface")
+
+2. Activate Virtual Environment of the Project in Command Prompt:
+.venv\Scripts\activate
+
+3. Make "postgres" folder, then fill it with the images you want to register to the PostgreSQL database
+
+4. Make "input_img" folder, then fill it with the images you want to check each image if it is registered to postgres database or not
+
+5. Make .env file for putting sensitive information about database, example can be seen from .env.example
+
+6. Run PostgreSQL setup script. It will create the database, tables, and enable pgvector for ANN indexing:
+python setup_postgres_deepface.py
+
+6. Run the face recognition python script:
+python face_recognition_with_postgres.py ^
+  --db_path matrix-run/postgres ^
+  --input_img matrix-run/input_img ^
+  --result_path matrix-run/results/face_recognition_results_postgres.txt ^
+  --gpu_num 0  
+
+7. See the results in face_recognition_results_postgres.txt

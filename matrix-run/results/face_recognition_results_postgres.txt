@@ -1,0 +1,36 @@
+Face Recognition Results (PostgreSQL ANN)
+Timestamp: 2026-02-04 13:16:32.932587
+============================================================
+
+[FOUND] dev_patel_adult.jpg
+  Identity  : 000135
+  Distance  : 0.500801
+  Threshold : 0.68
+
+[FOUND] dev_patel_young.jpg
+  Identity  : 000135
+  Distance  : 0.374488
+  Threshold : 0.68
+
+[FOUND] josh_hutcherson.jpg
+  Identity  : 000091
+  Distance  : 0.485334
+  Threshold : 0.68
+
+[FOUND] josh_hutcherson2.jpg
+  Identity  : 000091
+  Distance  : 0.392778
+  Threshold : 0.68
+
+[NOT FOUND] messi.jpg
+
+[NOT FOUND] ronaldo_adult.jpg
+
+[NOT FOUND] ronaldo_kid.jpg
+
+[NOT FOUND] ronaldo_old.jpg
+
+[NOT FOUND] ronaldo_prime.jpg
+
+[NOT FOUND] ronaldo_teen.jpg
+

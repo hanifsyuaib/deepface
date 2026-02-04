@@ -4,7 +4,7 @@ import setuptools
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("requirements.txt", "r", encoding="utf-8") as f:
+with open("requirements-hanif.txt", "r", encoding="utf-8") as f:
     requirements = f.read().split("\n")
 
 with open("package_info.json", "r", encoding="utf-8") as f:
@@ -19,10 +19,10 @@ setuptools.setup(
         "A Lightweight Face Recognition and Facial Attribute Analysis Framework"
         " (Age, Gender, Emotion, Race) for Python"
     ),
-    data_files=[("", ["README.md", "requirements.txt", "package_info.json"])],
+    data_files=[("", ["README.md", "requirements-hanif.txt", "package_info.json"])],
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/serengil/deepface",
+    url="https://github.com/hanifsyuaib/deepface",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
